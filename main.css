@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    
+    
+}
+
+.container .header{
+    display: flex;
+    background-color:rgb(48, 154, 216);
+    justify-content: space-around;
+    width:1440px;
+    align-items: center;
+
+}
+
+.container .header .show-hide-elements{
+    display: flex;
+    align-items: center;
+}
+
+.container .header .ulist{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+}
+.container .header .ulist li{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.container .header .ulist li a{
+    text-decoration:none;
+color: whitesmoke;
+font-size: 1em;    
+}
+
+.container .header .ulist li a:hover{
+    color:bisque}
+
+.section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.section img{
+    display: flex;
+    align-items: center;
+    height: 120%;
+    width: 60%;
+    padding-left:20%;
+}
+
+.section h1{
+    font-size: 20pt;
+    
+}
+
+.BlueBox .container li{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration:none;
+
+}
+.BlueBox .Blue{
+    display: flex;
+background-color:rgb(48, 154, 216) ;
+}
+.BlueBox .container ul div{
+    color: white;
+    background-color:rgb(48, 154, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+}
+.BlueBox .container ul {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;}
+
+.Personas .container.h{
+    display: flex;
+    flex-direction: column;
+    padding:2em;
+    
+}
+.Personas .container ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:20px;
+}
+
+.Personas .container figure figcaption{
+    display: flex;
+    align-items: center;
+}
+.Personas .container ul img{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.Personas .container p{
+    display: flex;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+.Personas .container p figcaption{
+    display: flex;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+.Free .container p{
+    display: flex;
+    font-size: 24pt;
+    justify-content: center;
+
+}
+
+
+.Free .container a{
+    display: flex;
+    font-size: 24pt;
+    color: white;
+    text-decoration: none;
+    
+    background-color: rgba(81, 81, 177, 0.795);
+padding:10px;
+
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 1rem;
+
+    justify-content: center;
+}
